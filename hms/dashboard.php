@@ -42,11 +42,11 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Dashboard</h1>
+									<h1 class="mainTitle">Usuário | Dashboard</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Usuário</span>
 									</li>
 									<li class="active">
 										<span>Dashboard</span>
@@ -62,11 +62,11 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">My Profile</h2>
+											<h2 class="StepTitle">Meu Perfil</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="edit-profile.php">
-													Update Profile
+													Atualizar Perfil
 												</a>
 											</p>
 										</div>
@@ -76,11 +76,11 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">My Appointments</h2>
+											<h2 class="StepTitle">Meus Agendamentos</h2>
 										
 											<p class="cl-effect-1">
 												<a href="appointment-history.php">
-													View Appointment History
+													Ver Histórico de Agendamentos
 												</a>
 											</p>
 										</div>
@@ -90,11 +90,11 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle"> Book My Appointment</h2>
+											<h2 class="StepTitle"> Livro de Agendamentos</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="book-appointment.php">
-													Book Appointment
+													Livro de Agendamentos
 												</a>
 											</p>
 										</div>

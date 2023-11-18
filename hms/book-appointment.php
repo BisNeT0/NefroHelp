@@ -26,7 +26,7 @@ $query=mysqli_query($con,"insert into appointment(doctorSpecialization,doctorId,
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User  | Book Appointment</title>
+		<title>Usuário  | Livro de Agendamentos</title>
 	
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -87,14 +87,14 @@ function getfee(val) {
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Book Appointment</h1>
+									<h1 class="mainTitle">Usuário  | Livro de Agendamentos</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Usuário</span>
 									</li>
 									<li class="active">
-										<span>Book Appointment</span>
+										<span>Livro de Agendamentos</span>
 									</li>
 								</ol>
 						</section>
@@ -108,7 +108,7 @@ function getfee(val) {
 										<div class="col-lg-8 col-md-12">
 											<div class="panel panel-white">
 												<div class="panel-heading">
-													<h5 class="panel-title">Book Appointment</h5>
+													<h5 class="panel-title">Livro de Agendamentos</h5>
 												</div>
 												<div class="panel-body">
 								<p style="color:red;"><?php echo htmlentities($_SESSION['msg1']);?>
@@ -119,10 +119,10 @@ function getfee(val) {
 
 <div class="form-group">
 															<label for="DoctorSpecialization">
-																Doctor Specialization
+																Especialização do Médico
 															</label>
 							<select name="Doctorspecialization" class="form-control" onChange="getdoctor(this.value);" required="required">
-																<option value="">Select Specialization</option>
+																<option value="">Selecione Especialização</option>
 <?php $ret=mysqli_query($con,"select * from doctorspecilization");
 while($row=mysqli_fetch_array($ret))
 {
@@ -140,10 +140,10 @@ while($row=mysqli_fetch_array($ret))
 
 														<div class="form-group">
 															<label for="doctor">
-																Doctors
+																Médicos
 															</label>
 						<select name="doctor" class="form-control" id="doctor" onChange="getfee(this.value);" required="required">
-						<option value="">Select Doctor</option>
+						<option value="">Selecione o Médico</option>
 						</select>
 														</div>
 
@@ -153,7 +153,7 @@ while($row=mysqli_fetch_array($ret))
 
 														<div class="form-group">
 															<label for="consultancyfees">
-																Consultancy Fees
+																Taxas da Consulta
 															</label>
 					<select name="fees" class="form-control" id="fees"  readonly>
 						
@@ -162,7 +162,7 @@ while($row=mysqli_fetch_array($ret))
 														
 <div class="form-group">
 															<label for="AppointmentDate">
-																Date
+																Data
 															</label>
 <input class="form-control datepicker" name="appdate"  required="required" data-date-format="yyyy-mm-dd">
 	
@@ -171,14 +171,14 @@ while($row=mysqli_fetch_array($ret))
 <div class="form-group">
 															<label for="Appointmenttime">
 														
-														Time
+														Horário
 													
 															</label>
 			<input class="form-control" name="apptime" id="timepicker1" required="required">eg : 10:00 PM
 														</div>														
 														
 														<button type="submit" name="submit" class="btn btn-o btn-primary">
-															Submit
+															Marcar Agendamento
 														</button>
 													</form>
 												</div>

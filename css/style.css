@@ -35,6 +35,9 @@ body{
 .logo{
 	float:left;
 	margin-top: 14px;
+	color:#3391E7;
+	font-family: 'Ropa Sans', sans-serif;
+
 }
 .top-nav{
 	float:right;
